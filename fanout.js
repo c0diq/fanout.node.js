@@ -171,6 +171,5 @@ var server = tcp.createServer(function(socket) {
     });
 });
 
-var client_port = 1986;
-server.listen(client_port);
+server.listen(1986);
 

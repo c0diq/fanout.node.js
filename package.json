@@ -1,9 +1,10 @@
 { "name" : "fanout"
-, "version" : "0.3.0"
+, "version" : "0.3.2"
 , "description" : "A simple fanout pubsub message server for node.js"
 , "author": "Chad Etzel <chad@jazzychad.net>"
-, "contributors": ["Sylvain Rebaud"]
+, "contributors": ["Hylke Bons", "Łukasz Jernaś", "Sylvain Rebaud"]
 , "main": "./fanout"
+, "scripts" : { "start" : "node fanout.js" }
 , "licenses": [
     { "type": "MIT"
     , "url": "http://github.com/c0diq/fanout.node.js/blob/master/LICENSE"
@@ -13,6 +14,9 @@
 , "repository":
   { "type": "git"
   , "url":  "http://github.com/c0diq/fanout.node.js"
+  }
+, "dependencies":
+  { "winston": "0.5.6"
   }
 }
 
