@@ -15,7 +15,7 @@
 
 
 var tcp = require("net"),
-    sys = require("sys"),
+    util = require('util'),
     winston = require('winston');
 
 // Use winston to output log info
